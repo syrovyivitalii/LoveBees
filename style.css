@@ -106,7 +106,7 @@ a {
 /*Imagine bee*/
 .sectionBee{
 	position: relative;
-	background: url(http://8029.wp.shabloner.ru/themes/shabloner_8029/files/ct_block_217916_image.jpg) left 50% top 50%;
+	background: url(img/ct_block_217916_image.jpg) left 50% top 50%;
     background-size: cover;
     height: 550px;
     filter: blur(0px);
