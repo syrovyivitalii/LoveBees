@@ -1,0 +1,293 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Antonio', sans-serif;
+}
+/*Header*/
+header{
+	width: 100%;
+	height: 100px;	
+	position: relative;
+	display: flex;
+	margin-top: 50px;
+}
+.headerName{
+	margin-left: 8%;
+	font-size: calc(10px + 6*(100vw / 1080));
+}
+.headerGrid{
+	display: grid;
+	grid-template-columns: 50px 1fr 50px 0.8fr 50px 1fr ;
+	width: 100%;
+	height: 100px;
+	margin-left: 20%;
+}
+header div div p{
+	font-size:calc(10px + 6*(100vw / 1080));
+}
+.header-span-love{
+	color: #F1AD00;
+}
+.header-span-bees{
+	color:#3d7c0e;
+}
+/*Navigation*/
+nav {
+  width: 100%;
+  background: #3d7c0e;
+}
+ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+
+}
+.topmenu > li {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+}
+.topmenu > li:last-child {
+  margin-right: 0;
+}
+a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  outline: none;
+  transition: .5s linear;
+  font-size: calc(9px + 6*(100vw / 1080));
+}
+.fa {
+  color: white;
+  padding-left: 10px;
+}
+.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+.nav .topmenu {
+  margin-left: 8%;
+}
+.nav .submenu {
+  -webkit-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: #3d7c0e;
+}
+.nav ul li:hover .submenu {
+  -webkit-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  transform: scaleY(1);
+}
+.nav ul a {
+  color: white;
+}
+.nav ul li:hover{
+	background-color: #2E6106;
+	transition: 0.5s ease-in-out;
+}
+.arrow{
+	font-size: calc(5px + 6*(100vw / 1080));
+	margin-left: 5px;
+}
+
+/*Imagine bee*/
+.sectionBee{
+	position: relative;
+	background: url(http://8029.wp.shabloner.ru/themes/shabloner_8029/files/ct_block_217916_image.jpg) left 50% top 50%;
+    background-size: cover;
+    height: 550px;
+    filter: blur(0px);
+}
+.sectionBlock{
+	position: absolute;
+	width: 40%;
+	height: 45%;
+	background-color: white;
+	border-radius: 5px;
+	margin: 150px 110px;
+	overflow: hidden;
+}
+.sectionBlock h1{
+	font-size: calc(15px + 10*(100vw / 1080));
+	text-align: justify;
+	color: #5C5D5C;
+	border-bottom: 2px solid green;
+}
+.sectionH{
+	margin: 5%;
+
+}
+.sectionBlock p{
+	font-size: calc(10px + 8*(100vw / 1080));
+	text-align: justify;
+	color: #5C5D5C;
+}
+.sectionP{
+	margin: 5%;
+}
+.sectionButton button{
+	font-size: 17px;
+	background: #3d7c0e;
+	color: #fff;
+	text-shadow: 0 1px 0 #3d7c0e;
+	padding: 4px 0 5px 0;
+	cursor: pointer;
+	border: 0;
+	border-top: 1px solid #3d7c0e;
+	border-right: 1px solid #3d7c0e;
+	border-left: 1px solid #3d7c0e;
+	border-bottom: 1px solid #3d7c0e;
+	box-shadow: 0 -1px 0 #3d7c0e, 0 1px 0 #3d7c0e;
+	width: 150px;
+	border-radius: 5px;
+}
+.sectionButton button:hover{
+	background-color: #2E6106;
+	border-color: #2E6106;
+}
+.sectionButton{
+	margin-left: 5%;
+}
+/* It's main*/
+.containerHead{
+	font-size: calc(20px + 10*(100vw / 1080));
+	text-align: center;
+	margin: 3% auto;
+}
+.containerHead:after{
+	content: '';
+    display: block;
+    height: 2px;
+    width: 6%;
+    margin: 10px 47%;
+    background: green;
+}
+/* bybees*/
+.bybees{
+	width: 90%;
+	height: 100%;
+	margin: 5% auto;
+	display: flex;
+	justify-content: space-around;
+	overflow: hidden;
+}
+.TheUterus{
+	width:30%;
+	height: 500px;
+	border: 1px solid #E3E3E3;
+}
+.bybees div img{
+	width: 100%;
+	height: 300px;
+}
+.bybees h3{
+	text-align: center;
+	color: #393434;
+	margin: 10px;
+}
+.priceBee{
+	text-align: center;
+	color: #393434;
+	margin: 10px;
+	font-size: calc(10px + 10*(100vw / 1080));
+}
+.bybeesText{
+	color: #393434;
+	font-size: calc(5px + 10*(100vw / 1080));
+	margin: 10px auto;
+}
+.bybeesButtom{
+	font-size: 17px;
+	background: #3d7c0e;
+	color: #fff;
+	text-shadow: 0 1px 0 #3d7c0e;
+	padding: 4px 0 5px 0;
+	cursor: pointer;
+	border: 0;
+	border-top: 1px solid #3d7c0e;
+	border-right: 1px solid #3d7c0e;
+	border-left: 1px solid #3d7c0e;
+	border-bottom: 1px solid #3d7c0e;
+	box-shadow: 0 -1px 0 #3d7c0e, 0 1px 0 #3d7c0e;
+	width: 150px;
+	border-radius: 5px;
+	margin: 3px 25%;
+}
+.bybeesButtom:hover{
+	background-color: #2E6106;
+	border-color: #2E6106;
+}
+/* About US in number*/
+.aboutUs{
+	width: 80%;
+	height: 200px;
+	margin: 20px auto;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.aboutUsH{
+	font-size: calc(20px + 10*(100vw / 1080))
+}
+.aboutUsH:after{
+	content: "";
+	display: block;
+	width: 6%;
+	height: 2px;
+	margin: 10px 47%;
+	background-color: #3d7c0e;
+
+}
+.aboutUsInNumber{
+	margin: 50px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	font-size: calc(10px + 10*(100vw / 1080))
+}
+.aboutUsInNumber div{
+	margin-left: 10%;
+}
+.aboutUsInNumber h2{
+	color: #3d7c0e;
+}
+.aboutUsInNumber p{
+	margin-top: 15px;
+}
+
+.footer{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	background-color: #363333;
+	color: #938A8A;
+}
+.footerMain{
+	position: absolute;
+	width:25%;
+	height: 100px;
+	margin: 80px 10%;
+}
+.footerMain h2{
+	padding-bottom: 10px;
+}
+.footerСontact{
+	position: absolute;
+	width: 25%;
+	height: 100px;
+	margin: 20px 70%;
+}
+.footerСontact p{
+	padding-top: 10px;
+}
