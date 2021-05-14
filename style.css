@@ -163,75 +163,6 @@ a {
 	margin-left: 5%;
 }
 /* It's main*/
-.containerHead{
-	font-size: calc(20px + 10*(100vw / 1080));
-	text-align: center;
-	margin: 3% auto;
-}
-.containerHead:after{
-	content: '';
-    display: block;
-    height: 2px;
-    width: 6%;
-    margin: 10px 47%;
-    background: green;
-}
-/* bybees*/
-.bybees{
-	width: 90%;
-	height: 100%;
-	margin: 5% auto;
-	display: flex;
-	justify-content: space-around;
-	overflow: hidden;
-}
-.TheUterus{
-	width:30%;
-	height: 500px;
-	border: 1px solid #E3E3E3;
-}
-.bybees div img{
-	width: 100%;
-	height: 300px;
-}
-.bybees h3{
-	text-align: center;
-	color: #393434;
-	margin: 10px;
-}
-.priceBee{
-	text-align: center;
-	color: #393434;
-	margin: 10px;
-	font-size: calc(10px + 10*(100vw / 1080));
-}
-.bybeesText{
-	color: #393434;
-	font-size: calc(5px + 10*(100vw / 1080));
-	margin: 10px auto;
-}
-.bybeesButtom{
-	font-size: 17px;
-	background: #3d7c0e;
-	color: #fff;
-	text-shadow: 0 1px 0 #3d7c0e;
-	padding: 4px 0 5px 0;
-	cursor: pointer;
-	border: 0;
-	border-top: 1px solid #3d7c0e;
-	border-right: 1px solid #3d7c0e;
-	border-left: 1px solid #3d7c0e;
-	border-bottom: 1px solid #3d7c0e;
-	box-shadow: 0 -1px 0 #3d7c0e, 0 1px 0 #3d7c0e;
-	width: 150px;
-	border-radius: 5px;
-	margin: 3px 25%;
-	transition: 0.2s ease-in-out;
-}
-.bybeesButtom:hover{
-	background-color: #2E6106;
-	border-color: #2E6106;
-}
 /* About US in number*/
 .aboutUs{
 	width: 80%;
@@ -292,4 +223,102 @@ a {
 }
 .footerСontact p{
 	padding-top: 10px;
+}
+.bybeesHead{
+	font-size: calc(20px + 10*(100vw / 1080));
+	text-align: center;
+	margin: 3% auto;
+}
+.bybeesHead:after{
+	content: '';
+    display: block;
+    height: 2px;
+    width: 6%;
+    margin: 10px 47%;
+    background: green;
+}
+/* WhyWeBest */
+.WhyWeBest{
+	position:relative;
+	width: 100%;
+	height: 600px;
+	background-color: #F1F2F0;
+}
+.WhyWeBestMain{
+	position: absolute;
+	width: 40%;
+	height: 500px;
+	margin: 50px 30%;
+}
+.WhyWeBestH{
+	text-align: center;
+	font-size: calc(20px + 10*(100vw / 1080));
+}
+.WhyWeBestP{
+	text-align: center;
+	font-size: calc(10px + 10*(100vw / 1080));
+}
+.WhyWeBestH:after{
+	content: "";
+	display: block;
+	width: 10%;
+	height: 2px;
+	margin: 10px 45%;
+	background-color: #3d7c0e;
+}
+/* bybees*/
+.bybees{
+	width: 90%;
+	height: 100%;
+	margin: 3% auto;
+	display: flex;
+	justify-content: space-around;
+	overflow: hidden;
+}
+.TheUterus{
+	width:30%;
+	height: 500px;
+	border: 1px solid #E3E3E3;
+}
+.bybees div img{
+	width: 100%;
+	height: 300px;
+}
+.bybees h3{
+	text-align: center;
+	color: #393434;
+	margin: 10px;
+}
+.priceBee{
+	text-align: center;
+	color: #393434;
+	margin: 10px;
+	font-size: calc(10px + 10*(100vw / 1080));
+}
+.bybeesText{
+	color: #393434;
+	font-size: calc(5px + 10*(100vw / 1080));
+	margin: 10px auto;
+}
+.bybeesButtom{
+	font-size: 17px;
+	background: #3d7c0e;
+	color: #fff;
+	text-shadow: 0 1px 0 #3d7c0e;
+	padding: 4px 0 5px 0;
+	cursor: pointer;
+	border: 0;
+	border-top: 1px solid #3d7c0e;
+	border-right: 1px solid #3d7c0e;
+	border-left: 1px solid #3d7c0e;
+	border-bottom: 1px solid #3d7c0e;
+	box-shadow: 0 -1px 0 #3d7c0e, 0 1px 0 #3d7c0e;
+	width: 150px;
+	border-radius: 5px;
+	margin: 3px 25%;
+	transition: 0.2s ease-in-out;
+}
+.bybeesButtom:hover{
+	background-color: #2E6106;
+	border-color: #2E6106;
 }
