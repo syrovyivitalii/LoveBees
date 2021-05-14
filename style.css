@@ -153,6 +153,7 @@ a {
 	box-shadow: 0 -1px 0 #3d7c0e, 0 1px 0 #3d7c0e;
 	width: 150px;
 	border-radius: 5px;
+	transition: 0.2s ease-in-out;
 }
 .sectionButton button:hover{
 	background-color: #2E6106;
@@ -225,6 +226,7 @@ a {
 	width: 150px;
 	border-radius: 5px;
 	margin: 3px 25%;
+	transition: 0.2s ease-in-out;
 }
 .bybeesButtom:hover{
 	background-color: #2E6106;
