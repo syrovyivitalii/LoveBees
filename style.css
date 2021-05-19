@@ -2,15 +2,16 @@
 *{
 	padding: 0px;
 	margin: 0px;
-	font-family: 'Antonio', sans-serif;
+	font-family: 'Fira Sans', sans-serif;
+	
 }
 /*Header*/
 header{
 	width: 100%;
-	height: 100px;	
+	height: 80px;	
 	position: relative;
 	display: flex;
-	margin-top: 50px;
+	margin-top: 40px;
 }
 .headerName{
 	margin-left: 8%;
@@ -169,7 +170,7 @@ a {
 	height: 200px;
 	margin: 20px auto;
 	text-align: center;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
 .aboutUsH{
 	font-size: calc(20px + 10*(100vw / 1080))
@@ -203,30 +204,98 @@ a {
 .WhyWeBest{
 	position:relative;
 	width: 100%;
-	height: 600px;
+	height: 1100px;
 	background-color: #F1F2F0;
 }
-.WhyWeBestMain{
+.WhyWeBestText{
 	position: absolute;
-	width: 40%;
-	height: 500px;
-	margin: 50px 30%;
+	width: 100%;
+	height: 100px;
+	margin-top: 50px;
 }
 .WhyWeBestH{
 	text-align: center;
-	font-size: calc(20px + 10*(100vw / 1080));
+	font-size: calc(25px + 10*(100vw / 1080));
 }
-.WhyWeBestP{
+.WhyWeBest{
 	text-align: center;
 	font-size: calc(10px + 10*(100vw / 1080));
 }
 .WhyWeBestH:after{
 	content: "";
 	display: block;
-	width: 10%;
+	width: 30%;
 	height: 2px;
-	margin: 10px 45%;
+	margin: 10px 35%;
 	background-color: #3d7c0e;
+}
+.WhyWeBestImg{
+	display: flex;
+	justify-content: space-between;
+}
+.WhyWeBestImgLeft{
+	width: 400px;
+	height: 600px;
+	margin-top: 16%;
+	margin-left: 4%;
+}
+.WhyWeBestImgRight{
+	width: 400px;
+	height: 600px;
+	margin-top: 16%;
+	margin-right: 4%;
+}
+.WeBestBecause{
+	position: absolute;
+	width: 40%;
+	height: 40%;
+	margin-top: 22%;
+	margin-left: 30%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+#WhyWeBestReason{
+	margin: 5%;
+	background-color: white;
+}
+.WyWeBestReasonText p{
+	margin-top: 5px;
+	font-size: 0.7em;
+}
+.WhyWeBestFooter{
+	width: 100%;
+	height: 15%;
+	margin-top: 70px;
+}
+.WhyWeBestFooterH{
+	text-align: center;
+}
+.WhyWeBestFooterButton{
+	font-size: 20px;
+	background: #3d7c0e;
+	color: #fff;
+	text-shadow: 0 1px 0 #3d7c0e;
+	padding: 4px 0 5px 0;
+	cursor: pointer;
+	border: 0;
+	border-top: 1px solid #3d7c0e;
+	border-right: 1px solid #3d7c0e;
+	border-left: 1px solid #3d7c0e;
+	border-bottom: 1px solid #3d7c0e;
+	box-shadow: 0 -1px 0 #3d7c0e, 0 1px 0 #3d7c0e;
+	width: 300px;
+	height: 50px;
+	border-radius: 5px;
+	transition: 0.2s ease-in-out;
+	margin-top: 20px;
+}
+.WhyWeBestFooterButton:hover{
+	background-color: #2E6106;
+	border-color: #2E6106;
+}
+.WhyWeBestFooterP{
+	font-size: calc(8px + 6*(100vw / 1080));
+	margin-top: 15px;
 }
 /* bybees*/
 .bybeesHead{
@@ -303,22 +372,43 @@ a {
 	height: 200px;
 	background-color: #363333;
 	color: #938A8A;
+	overflow: hidden;
 }
 .footerMain{
 	position: absolute;
-	width:25%;
-	height: 100px;
 	margin: 80px 10%;
 }
-.footerMain h2{
+.footerMain h3{
 	padding-bottom: 10px;
 }
 .footerСontact{
 	position: absolute;
 	width: 25%;
-	height: 100px;
-	margin: 20px 70%;
+	margin: 1% 70%;
+	overflow: hidden;
 }
 .footerСontact p{
 	padding-top: 10px;
+}
+.footerAboutUs{
+	position: absolute;
+	width: 15%;
+	margin: 1% 55%;
+	overflow: hidden;
+}
+.footerAboutUs p{
+	padding-top: 10px;
+}
+.footerIcon{
+	width: 25%;
+	height: 200px;
+	position: absolute;
+	margin: 1% 28%;
+	overflow: hidden;
+	text-align: center;
+}
+.footerSocial{
+	margin-top: 10%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
